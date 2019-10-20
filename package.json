@@ -1,0 +1,22 @@
+{
+  "name": "sugoroku",
+  "version": "1.0.0",
+  "description": "すごろくLPプラットホーム",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "watch": "tsc -w",
+    "serve": "http-server -o",
+    "start": "concurrently \"npm run serve\" \"npm run watch\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/croissant-hi/sugoroku.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/croissant-hi/sugoroku/issues"
+  },
+  "homepage": "https://github.com/croissant-hi/sugoroku#readme"
+}
